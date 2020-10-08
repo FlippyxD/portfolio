@@ -1,0 +1,10 @@
+.sidebar-navigation .logo a {
+  font-family: "Permanent Marker", cursive;
+}
+.sidebar-navigation .logo a em {
+  color: #000;
+}
+
+.fa.fa-github {
+  font-size: 2.5rem;
+}
