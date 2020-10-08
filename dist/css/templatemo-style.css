@@ -1222,6 +1222,10 @@ nav .active-section span {
     position: relative;
   }
 
+  .hero-paragraph {
+    text-align: center;
+  }
+
   #projects {
     padding-left: 15px;
     padding-right: 15px;
@@ -1279,5 +1283,13 @@ nav .active-section span {
 
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(4, 25%);
+  }
+}
+
+@media (max-width: 450px) {
+  .background-opacity > .btn-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
